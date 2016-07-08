@@ -2,6 +2,10 @@ package com.github.observer;
 
 import java.util.ArrayList;
 
+/**
+ * TYPE : Behavioral
+ * 
+ */
 public class StockGrabber implements Subject {
 
 	private ArrayList<Observer> observers;
